@@ -13,7 +13,6 @@ import com.example.demo.domain.UserDTO;
 import com.example.demo.domain.UserDTOResponse;
 import com.example.demo.model.DAOUser;
 import com.example.demo.util.ObjectMapperUtils;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * @author duleepa_w

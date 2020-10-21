@@ -6,7 +6,6 @@ package com.example.demo.impl;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.model.Student;
@@ -27,10 +26,6 @@ public class StudentServiceImpl implements StudentService{
 	
 	private static Map<String , Student> studentRepo = new HashMap<String, Student>();
 	
-	/*
-	 * @Value("${logging.path}") public String getProperty;
-	 */
-	
 	static {		
 		Student s1 = new Student();
 		s1.setId("1");
@@ -47,13 +42,11 @@ public class StudentServiceImpl implements StudentService{
 
 	@Override
 	public Map<String, Student> getStudents() {
-		/* System.out.println(getProperty); */
 		return studentRepo;
 	}
 
 	@Override
 	public String createStudent(Student student) {
-		// TODO Auto-generated method stub
 		try {
 			studentRepo.put(student.getId(), student);
 			return SUCCESS;
@@ -66,7 +59,6 @@ public class StudentServiceImpl implements StudentService{
 
 	@Override
 	public String updateStudent(String id, Student student) {
-		// TODO Auto-generated method stub
 		try {
 			studentRepo.remove(id);
 			student.setId(id);

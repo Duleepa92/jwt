@@ -6,10 +6,8 @@ package com.example.demo.model;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.NumberFormat;
 import org.springframework.stereotype.Component;
 
@@ -22,7 +20,6 @@ import org.springframework.stereotype.Component;
 public class Student {
 	
 	@NotNull
-	@NotEmpty
 	@Min(5)
 	@Max(20)
 	@NumberFormat
