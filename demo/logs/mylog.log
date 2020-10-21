@@ -1,0 +1,12 @@
+2019-08-13 12:00:16.477  INFO 19824 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on ASELA1093 with PID 19824 (C:\Users\duleepa_w\Downloads\demo\bin\main started by duleepa_w in C:\Users\duleepa_w\Downloads\demo)
+2019-08-13 12:00:16.529  INFO 19824 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-08-13 12:00:17.896  INFO 19824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2019-08-13 12:00:17.943  INFO 19824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-13 12:00:17.944  INFO 19824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-13 12:00:18.040  INFO 19824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-13 12:00:18.040  INFO 19824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1317 ms
+2019-08-13 12:00:18.240  INFO 19824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-13 12:00:18.416  INFO 19824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2019-08-13 12:00:18.419  INFO 19824 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.236 seconds (JVM running for 2.765)
+2019-08-13 12:01:07.051  INFO 19824 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-13 12:01:07.052  INFO 19824 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
